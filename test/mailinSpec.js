@@ -53,7 +53,7 @@ describe('nodeMailin', function() {
 			// console.log(data);
 			try {
 				data.text.should.eql(
-					`HELLO WORLD\nThis is a line that needs to be at least a little longer than 80 characters so\nthat we can check the character wrapping functionality.\n\nThis is a test of a link [https://github.com/vithalreddy/node-mailin].`
+					`HELLO WORLD\n\nThis is a line that needs to be at least a little longer than 80 characters so\nthat we can check the character wrapping functionality.\n\nThis is a test of a link [https://github.com/vithalreddy/node-mailin].`
 				);
 				done();
 			} catch (e) {

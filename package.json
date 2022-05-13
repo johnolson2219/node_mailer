@@ -34,13 +34,13 @@
     "commander": "^2.8.1",
     "dkim": "^0.4.1",
     "extend": "^3.0.1",
-    "forever-monitor": "^1.5.2",
-    "html-to-text": "^4.0.0",
+    "forever-monitor": "nordluf/forever-monitor",
+    "html-to-text": "^8.0.0",
     "languagedetect": "^1.1.1",
     "lodash": ">=4.17.11",
-    "mailparse": "^2.2.2",
+    "mailparser": "^3.0.0",
     "semver": "^5.0.1",
-    "shelljs": "^0.8.2",
+    "shelljs": "^0.8.5",
     "smtp-server": "^3.4.4",
     "spamc": "^0.0.5",
     "spf-validator": "^0.2.0",
@@ -48,17 +48,17 @@
     "winston": "^2.4.2"
   },
   "devDependencies": {
-    "async": "^2.6.0",
+    "async": "^3.0.0",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "express": "^4.16.3",
     "grunt": "^1.0.2",
-    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-jshint": "^3.0.0",
     "grunt-jsbeautifier": "^0.2.10",
     "grunt-mocha-test": "^0.13.3",
-    "mocha": "^5.1.1",
+    "mocha": "^10.0.0",
     "multiparty": "^4.1.2",
     "should": "^13.2.1",
-    "smtp-connection": "^4.0.2"
+    "smtp-connection": "nordluf/smtp-connection"
   }
 }
